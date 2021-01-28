@@ -10,8 +10,22 @@ h1 {
 .img-fluid {
   @include img-fluid;
   border: 1px solid;
-  max-width:40%
+  max-width:20%
 }
+
+#id {
+
+}
+
+.left {
+  float:left;
+
+}
+
+.right {
+  float:right;
+}
+
 h3 {
   font-family: 'Rubik';
   color:navy;
