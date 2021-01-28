@@ -1,0 +1,25 @@
+#intro {
+  color:blue;
+  font-family: sans-serif;
+
+}
+h1 {
+  font-family: 'Bitter';
+}
+
+.img-fluid {
+  @include img-fluid;
+  border: 1px solid;
+  max-width:40%
+}
+h3 {
+  font-family: 'Rubik';
+  color:navy;
+}
+ 
+
+body {
+  background-color:beige;
+  font-family: sans-serif;
+}
+
