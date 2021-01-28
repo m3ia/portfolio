@@ -18,12 +18,22 @@ h1 {
 }
 
 .left {
-  float:left;
-
+  text-align: left;
+  float: left;
+  height: auto;
+  /* max-width: 500px; */
+  padding: 50px 10px 50px 10px;
+  /* border: 2px solid rgb(45, 108, 103); */
+  margin: 2px; 
 }
 
 .right {
-  float:right;
+  text-align: left;
+  float: left;
+  height: auto;
+  width: 45%;
+  padding: 10px 10px 50px 10px;
+  /* border: 2px solid rgb(248, 147, 63); */
 }
 
 h3 {
