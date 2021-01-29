@@ -1,7 +1,12 @@
-#intro {
-  color:blue;
+.navbar {
+  color:lavender;
   font-family: sans-serif;
+  background-color:beige;
 
+}
+
+#header {
+  background-color:beige;
 }
 h1 {
   font-family: 'Bitter';
@@ -10,36 +15,33 @@ h1 {
 .img-fluid {
   @include img-fluid;
   border: 1px solid;
-  max-width:50%
-}
-
-#id {
-
+  /* max-width:50% */
 }
 
 .container-pro {
   align-items: justify;
 }
+
 #left-pro {
   text-align: left;
   float: left;
   height: auto;
-  width: 50%;
-  max-width:35%
-  padding: 10px 10px 10px 10px;
-  /* border: 2px solid rgb(45, 108, 103); */
-  margin: 10px; 
+  /* width: 33.33rem;
+  max-width:35% */
+  /* padding: 10px 10px 10px 10px; */
+  border: 2px solid rgb(45, 108, 103);
+  /* margin: 10px;  */
 }
 
 #right-pro {
   text-align: left;
   float: left;
   height: auto;
-  width: 50%;
-  max-width: 35%;
+  /* width: 50%;
+  max-width: 35%; */
   padding: 10px 10px 10px 10px;
-  /* border: 2px solid rgb(248, 147, 63); */
-  margin:10px;
+  border: 2px solid rgb(248, 147, 63);
+  /* margin:20px; */
 }
 
 h3 {
