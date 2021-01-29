@@ -3,7 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <!--bootstrap script via https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!--google fonts-->
   <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
@@ -20,15 +26,15 @@
   <div id="intro">
     <p>From RN to Trust & Safety at Yelp. Now a software engineer in training at Techtonica! </p>
   </div>
-  <div class="container-pro">
+  <div class="container-fluid" id="container-pro">
     <div class="row">
-      <div id="left-pro" class="col-6">
+      <div id="left-pro" class="col-xs-12 col-6">
         <img id="profile" class="img-fluid"
           src="https://media-exp1.licdn.com/dms/image/C5603AQEsN8ogY8F2Dw/profile-displayphoto-shrink_800_800/0/1589596938545?e=1617235200&v=beta&t=qgHNv_Pe10W6tvzVnWdddetCzZ6fjIEDN5XCwlvQGXA"
           alt="Profile Display Photo">
       </div>
       <div id="contact">
-        <div id="right-pro" class="col-6">
+        <div id="right-pro" class="col-xs-12 col-6">
           <p>
           <h3>Contact:</h3><br>
           <img src="https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png"
@@ -77,7 +83,10 @@
         </ul>
       </div>
     </div>
+  </div>
+</div>
 
+<div class="container" id="misc">
     <div id="misc">
       <div class="row">
         <div class="column-md-6" id="skills">
@@ -98,9 +107,8 @@
         </div>
       </div>
     </div>
-
-
   </div>
+
 </body>
 
 </html>
