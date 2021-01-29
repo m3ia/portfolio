@@ -10,30 +10,36 @@ h1 {
 .img-fluid {
   @include img-fluid;
   border: 1px solid;
-  max-width:20%
+  max-width:50%
 }
 
 #id {
 
 }
 
-.left {
+.container-pro {
+  align-items: justify;
+}
+#left-pro {
   text-align: left;
   float: left;
   height: auto;
-  /* max-width: 500px; */
-  padding: 50px 10px 50px 10px;
+  width: 50%;
+  max-width:35%
+  padding: 10px 10px 10px 10px;
   /* border: 2px solid rgb(45, 108, 103); */
-  margin: 2px; 
+  margin: 10px; 
 }
 
-.right {
+#right-pro {
   text-align: left;
   float: left;
   height: auto;
-  width: 45%;
-  padding: 10px 10px 50px 10px;
+  width: 50%;
+  max-width: 35%;
+  padding: 10px 10px 10px 10px;
   /* border: 2px solid rgb(248, 147, 63); */
+  margin:10px;
 }
 
 h3 {
