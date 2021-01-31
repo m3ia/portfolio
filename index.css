@@ -1,17 +1,33 @@
-.navbar {
-  color:lavender;
-  font-family: sans-serif;
-  background-color:beige;
+<!--color scheme: https://coolors.co/425641-e47a62-736350-a7b195-e9dac4-->
 
+
+.navbar-brand, .nav-link, .nav-item  {
+  color:#A7B195;
+}
+#header, .navbar-custom, body {
+  background-color:#E9DAC4;
 }
 
-#header {
-  background-color:beige;
-}
+
 h1 {
   font-family: 'Bitter';
+  color:#425641;
 }
 
+h3 {
+  font-family: 'Bitter';
+  color:#425641;
+}
+
+h4 {
+  color: #736350;
+  font-family:'Bitter';
+}
+
+body, .navbar-custom {
+  font-family: 'Rubik';
+
+}
 .img-fluid {
   @include img-fluid;
   border: 1px solid;
@@ -29,7 +45,7 @@ h1 {
   /* width: 33.33rem;
   max-width:35% */
   /* padding: 10px 10px 10px 10px; */
-  border: 2px solid rgb(45, 108, 103);
+  /* border: 2px solid rgb(45, 108, 103); */
   /* margin: 10px;  */
 }
 
@@ -40,18 +56,24 @@ h1 {
   /* width: 50%;
   max-width: 35%; */
   padding: 10px 10px 10px 10px;
-  border: 2px solid rgb(248, 147, 63);
+  /* border: 2px solid rgb(248, 147, 63); */
   /* margin:20px; */
 }
 
-h3 {
-  font-family: 'Rubik';
-  color:navy;
-}
  
-
-body {
-  background-color:beige;
-  font-family: sans-serif;
+.navbar-custom {
+  
+  background-color:#A7B195;
+  
 }
+
+.navbar-custom a {
+  color:#425641;
+  font-family: 'Rubik';
+}
+
+.navbar-custom a:hover {
+  color:#E47A62;
+}
+
 
