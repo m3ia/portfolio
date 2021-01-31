@@ -1,4 +1,4 @@
-#Meia's Portfolio
+# Meia's Portfolio
 
 I'm Meia Natividad, a software engineer in training at Techtonica.
 
@@ -6,10 +6,11 @@ This is my portfolio, which I'll continually add on to as the year goes on. Plea
 
 A little more about me you won't find in this portfolio includes my interests. 
 
-###### Interests:
+## Interests:
+
 * Music (I sing!)
 * Games (puzzles, board games, Nintendo, Steam)
 * Comedy
 * Baking and making frozen desserts
-* Biking 
+* Biking
 * Exploring Oakland
